@@ -61,7 +61,11 @@ FRAMES_BEFOR_ANCHOR = 32
 
 
 dist_params = { 'anchor_strategy': 'pos_-1_-2_-3', 'last_anchor': False, 'dist_to_anchor_func': 'mean'}
-metric_thr = { 'cos': {'med':0.5, 'good':0.0, 'excel':0.0}, 'js': {'med':0.52, 'good':0.0, 'excel':0.0} }
+
+# Detection thresholds
+#   set good and excel to evaluate better wuality movements
+metric_thr = { 'cos': {'med':0.5, 'good':0.0, 'excel':0.0}, 
+              'js': {'med':0.52, 'good':0.0, 'excel':0.0} }
 
 
 

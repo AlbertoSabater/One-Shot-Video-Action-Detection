@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+*.mp4
+*.png
+data_samples/*
+trained_networks/*
